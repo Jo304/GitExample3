@@ -1,5 +1,5 @@
 import requests
-base_url = 'https//apidiscogs.com/'
+base_url = 'https//api.discogs.com/'
 
 def get_releases(release_id):
     endpoint = f'/releases/{release_id}'
@@ -11,4 +11,4 @@ def get_releases(release_id):
 
 
 
-get_releases(249505)
+get_releases(249504)
