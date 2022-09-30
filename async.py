@@ -4,7 +4,7 @@ from aiohttp import ClientSession
 base_url = 'http://httpbin.org/'
 
 async def count():
-    for i in [1,2,3,4,5]:
+    for i in [1,2,3,4,5,6,7,8]:
         print(i)
         await asyncio.sleep(1)
 
