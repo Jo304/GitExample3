@@ -1,10 +1,9 @@
 import requests
 
-
 base_url = 'http://httpbin.org/'
 
 def get_delay(seconds):
-    endpoint = f'/dalay/{seconds}'
+    endpoint = f'/delay/{seconds}'
 
     print(f'Getting with {seconds} delay ...')
 
