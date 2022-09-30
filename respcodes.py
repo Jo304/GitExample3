@@ -10,5 +10,5 @@ def get_releases(release_id):
     resp = requests.get(base_url+endpoint)
     print(resp)
 
-
-get_releases(249504)
+for i in range(0,30):
+    get_releases(249504)
