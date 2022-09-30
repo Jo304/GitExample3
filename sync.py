@@ -1,5 +1,6 @@
 import requests
 
+
 base_url = 'http://httpbin.org/'
 
 def get_delay(seconds):
