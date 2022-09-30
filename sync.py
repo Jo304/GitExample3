@@ -5,7 +5,7 @@ base_url = 'http://httpbin.org/'
 def get_delay(seconds):
     endpoint = f'/delay/{seconds}'
 
-    print(f'Getting with {seconds} delay ...')
+    print(f'Getting with {seconds} delay...')
 
     resp = requests.get(base_url+endpoint)
     data = resp.json()
